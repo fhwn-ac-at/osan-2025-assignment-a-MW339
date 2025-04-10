@@ -1,3 +1,6 @@
+//made by manuel on 10.04.25
+//
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <getopt.h>
