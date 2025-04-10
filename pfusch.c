@@ -26,10 +26,10 @@ do
     break;
     case 's':
       args.s = optarg;
-      break;
+    break;
       case 'b':
         args.b = false;
-        break;
+    break;
         case '?':
           printf("Usage: %s -i <number> -s <string> -b\n", argv[0]);
           exit(EXIT_FAILURE);
