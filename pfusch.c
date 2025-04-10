@@ -1,5 +1,5 @@
-//made by manuel on 10.04.25
-//
+// made by manuel 10.04.25
+
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -28,7 +28,7 @@ do
       args.s = optarg;
       break;
       case 'b':
-        args.b = true;
+        args.b = false;
         break;
         case '?':
           printf("Usage: %s -i <number> -s <string> -b\n", argv[0]);
